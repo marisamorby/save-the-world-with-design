@@ -2,6 +2,7 @@
   publish = "public"
   command = "npm run build"
   functions = "lambda"
+  sleep = "900"
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
